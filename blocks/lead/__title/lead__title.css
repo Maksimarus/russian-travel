@@ -1,4 +1,5 @@
 .lead__title {
+  box-sizing: border-box;
   max-width: 720px;
   width: 100%;
   margin: 0 0 32px 0;
@@ -11,6 +12,7 @@
 
 @media screen and (max-width: 700px) {
   .lead__title {
+    max-width: min-content;
     padding: 0 10px;
     font-size: 60px;
   }
