@@ -6,12 +6,7 @@
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
 }
-/* TODO:
-  5) Поправить отступы(где возможно использовать проценты)
-  9) Проверить как ведет себя макет на альбломной ориентации
-  10) github pages
-  11) Оформить readme.md
- */
+
 @media screen and (max-width: 425px) {
   .photo-grid__list {
     grid-gap: 12px;
