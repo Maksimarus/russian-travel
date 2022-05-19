@@ -14,3 +14,5 @@
 * Grid layout
 * Flexbox
 * media-queries
+
+#### Посмотреть работу можно здесь https://maksimarus.github.io/russian-travel/index.html
