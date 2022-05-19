@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .place__paragraph:not(:last-child) {
     margin-bottom: 25px;
   }
