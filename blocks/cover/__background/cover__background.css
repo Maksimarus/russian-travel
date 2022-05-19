@@ -1,6 +1,6 @@
 .cover__background {
   min-height: 740px;
-  background: url(/images/cover-trains.jpg) center no-repeat;
+  background: url(../../../images/cover-trains.jpg) center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;

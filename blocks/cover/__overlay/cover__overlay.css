@@ -3,7 +3,7 @@
   height: 100%;
   position: absolute;
   background-color: rgba(42, 44, 47, .8);
-  opacity: 0;
+  opacity: 0.2;
   transition: opacity .5s ease-in-out;
 }
 
