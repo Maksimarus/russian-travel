@@ -1,9 +1,11 @@
+.container-small {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
-  .lead__container_size_s {
+  .container-small {
     max-width: none;
     padding: 0;
   }
 }
-
-
-

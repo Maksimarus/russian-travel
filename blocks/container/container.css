@@ -18,11 +18,6 @@
 
 @media screen and (max-width: 500px) {
   .container {
-    max-width: 460px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .container {
-    max-width: 288px;
+    max-width: none;
   }
 }
