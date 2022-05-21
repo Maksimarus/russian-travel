@@ -1,4 +1,5 @@
 .intro__title {
+  max-width: 690px;
   margin: 0 0 40px 0;
   font-size: 54px;
   line-height: calc(58 / 54);
@@ -7,13 +8,19 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1023px) {
+  .intro__title {
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .intro__title {
     font-size: 42px;
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 540px) {
   .intro__title {
     font-size: 32px;
   }

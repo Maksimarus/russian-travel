@@ -1,16 +1,17 @@
-.place__image {
-  width: 100%;
-  object-fit: cover;
+.place__website {
+  align-self: end;
 }
 
 @media screen and (max-width: 767px) {
-  .place__image {
+  .place__website {
+    align-self: start;
     margin-bottom: 40px;
+    padding: 0 15px;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .place__image {
+  .place__website {
     margin-bottom: 32px;
   }
 }

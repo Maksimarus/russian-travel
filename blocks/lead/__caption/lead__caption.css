@@ -8,14 +8,8 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .lead__caption {
-    margin-left: 16px;
+    padding: 0 15px;
   }
 }
