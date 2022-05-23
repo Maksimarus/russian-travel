@@ -7,11 +7,12 @@
   max-width: 100%;
   position: relative;
   z-index: 0;
-  overflow: hidden;
   color: #fff;
   min-height: 200px;
   text-decoration: none;
   padding: 245px 0;
+  background: url(../../../images/cover-trains.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .cover__background:before {
@@ -32,6 +33,12 @@
 
 .cover__background:hover:before {
   opacity: 0.8;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .cover__background {
+    background-image: url(../../../images/images-2x/cover-trains-2x.jpg);
+  }
 }
 
 @media screen and (max-width: 1279px) {
